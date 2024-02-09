@@ -11,32 +11,37 @@ body{
     padding: 0;
     background-color: #eca9a9;
     cursor: pointer;
-    user-select: none;
 }
 .main{
     position: relative;
     top: 0%;
     left: 50%;
     translate: -50% 0%;
-    width: 350px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     /* background-color: #862e2e; */
+    user-select: none;
 }
 
 .count{
-    color: #FFF;
+    position: absolute;
+    color: #420a0a;
+    font-weight: 700;
     font-family: "Noto Sans JP", sans-serif;
     user-select: none;
     text-align: center;
     font-size:XX-large;
+    top: 80px;
+    left: 50%;
+    translate: -50%;
 }
 
 .woodenfish{
     position: absolute;
-    top: 300px;
-    right: 30px;
-    width: calc(166px * 0.8);
-    height: calc(113px * 0.8);
+    top: 440px;
+    right: 70px;
+    width: calc(166px * 1.5);
+    height: calc(113px * 1.5);
     background: url(img/img2.png)no-repeat;
     /* background-color: #a9e2ec; */
     background-size: contain;
@@ -45,8 +50,9 @@ body{
 .stick{
     position: absolute;
     top: 100px;
-    width: calc(102px * 0.8);
-    height: calc(314.5px * 0.8);
+    left: 10px;
+    width: calc(102px * 1.5);
+    height: calc(314.5px * 1.5);
     background: url(img/img1.png)no-repeat;
     /* background-color: #a9e2ec; */
     background-size: contain;
