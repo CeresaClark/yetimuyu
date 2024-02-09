@@ -11,6 +11,7 @@ body{
     padding: 0;
     background-color: #eca9a9;
     cursor: pointer;
+    user-select: none;
 }
 .main{
     position: relative;
